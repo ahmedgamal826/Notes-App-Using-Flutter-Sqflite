@@ -218,7 +218,7 @@ class _HomePageState extends State<HomePage> {
                       child: ListTile(
                         title: Text(
                           notesItem[index].title!,
-                          style: const TextStyle(
+                          style: TextStyle(
                               fontSize: 36,
                               fontWeight: FontWeight.bold,
                               color: Colors.white),
